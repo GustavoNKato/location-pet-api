@@ -74,7 +74,6 @@ O projeto segue os princípios SOLID com exemplos concretos:
 - JaCoCo para cobertura de testes
 - Lombok para redução de boilerplate
 - Docker para containerização
-- SpringDoc OpenAPI para documentação
 
 ## Decisões Técnicas
 
