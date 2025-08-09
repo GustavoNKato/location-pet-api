@@ -1,4 +1,4 @@
-# Challenge Localization API
+# Challenge Location Pet API
 
 API REST para localização de pets perdidos a partir de dados de sensores GPS.
 
