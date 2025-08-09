@@ -1,0 +1,38 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: challenge-localization-api
+  cloud:
+    openfeign:
+      client:
+        config:
+          default:
+            loggerLevel: basic
+
+# Position Stack API configuration
+position-stack:
+  base-url: http://api.positionstack.com/v1
+  key: ${POSITION_STACK_API_KEY}
+
+# Actuator configuration for monitoring
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+      base-path: /actuator
+  endpoint:
+    health:
+      show-details: always
+    metrics:
+      enabled: true
+
+# Logging configuration
+logging:
+  level:
+    com.itau.challenge_localization_api: DEBUG
+    feign: DEBUG
