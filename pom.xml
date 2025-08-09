@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.itau</groupId>
-	<artifactId>challenge-localization-api</artifactId>
+	<artifactId>challenge-location-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>challenge-localization-api</name>
-	<description>Challenge localization api - itau</description>
+	<name>challenge-location-api</name>
+	<description>Challenge location api - itau</description>
 	<url/>
 	<licenses>
 		<license/>

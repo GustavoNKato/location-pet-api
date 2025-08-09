@@ -5,7 +5,7 @@ server:
 
 spring:
   application:
-    name: challenge-localization-api
+    name: challenge-location-api
   cloud:
     openfeign:
       client:
@@ -34,5 +34,5 @@ management:
 # Logging configuration
 logging:
   level:
-    com.itau.challenge_localization_api: DEBUG
+    com.itau.challenge_location_api: DEBUG
     feign: DEBUG

@@ -42,4 +42,4 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
 ENV POSITION_STACK_API_KEY=""
 
 # Run the application
-ENTRYPOINT ["java","-cp","app:app/lib/*","com.itau.challenge_localization_api.ChallengeLocalizationApiApplication"]
+ENTRYPOINT ["java","-cp","app:app/lib/*","com.itau.challenge_location_api.ChallengeLocationApiApplication"]
