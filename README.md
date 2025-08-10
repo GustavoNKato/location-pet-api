@@ -119,6 +119,7 @@ Esta API utiliza o serviço PositionStack para geocodificação. **Você precisa
 ```bash
 export POSITION_STACK_API_KEY=sua-chave-aqui
 ```
+>Caso esteja testando pela IDE, adicionar nas varíaveis de ambiente com a sua API KEY. 
 
 ### 🚀 **Execução Rápida**
 
