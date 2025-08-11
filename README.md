@@ -103,6 +103,7 @@ A disponibilização via Docker facilita a implantação em diferentes ambientes
 2. Não é necessário persistência de dados (armazenamento em banco de dados)
 3. A API será usada em um ambiente controlado, sem necessidade de autenticação/autorização
 4. Os requisitos de observabilidade podem ser atendidos com logs estruturados e métricas do Spring Actuator
+5. O padrão UseCase foi deliberadamente omitido devido à simplicidade do domínio (uma única operação de negócio - localizar). A arquitetura por Service Layer atende perfeitamente ao escopo, evitando over-engineering e mantendo o código limpo e eficiente. Para sistemas com múltiplas operações complexas e regras de negócio elaboradas, UseCase seria mais apropriado
 
 ## Como Executar
 
