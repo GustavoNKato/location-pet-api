@@ -249,23 +249,6 @@ O projeto possui uma suíte abrangente de testes que garante a qualidade e confi
   - Validação de resposta JSON completa
   - Comportamento da aplicação como um todo
 
-### Estratégias de Teste
-
-#### **Mocking Strategy**
-- **Testes Unitários**: Mock de dependências externas para isolamento
-- **Testes de Integração**: Mock apenas da API externa (PositionStack)
-- **Uso do Mockito**: Para simulação de comportamentos e verificação de interações
-
-#### **Test Data Strategy**
-- **Coordenadas Reais**: São Paulo (-23.5505, -46.6333) para testes realistas
-- **Dados Determinísticos**: Respostas mockadas consistentes
-- **Edge Cases**: Testes para valores nulos e campos opcionais
-
-#### **Assertions Strategy**
-- **Validação de Contratos**: Verificação de estrutura de resposta JSON
-- **Validação de Dados**: Conferência de valores específicos retornados
-- **Validação de Comportamento**: Verificação de chamadas para dependências
-
 
 ## Observabilidade
 
